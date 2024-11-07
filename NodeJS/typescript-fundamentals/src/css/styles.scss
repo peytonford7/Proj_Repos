@@ -1,0 +1,35 @@
+// styles.scss
+
+@import 'variables'; // Importing custom variables
+@import 'bulma'; // Importing Bulma
+
+body {
+  font-family: $font-stack;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.navbar {
+  background-color: $dark-background;
+}
+
+.brand-first {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.title {
+  color: $primary-color;
+  margin-bottom: 20px;
+}
+
+.main-section {
+  padding: 20px;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
